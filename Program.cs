@@ -6,6 +6,11 @@ namespace Calculator
   {
     static void Main(string[] args)
     {
+      Soma();
+    }
+
+    static void Soma()
+    {
       Console.Clear();
       Console.WriteLine("Primeio valor: ");
       float v1 = float.Parse(Console.ReadLine());
